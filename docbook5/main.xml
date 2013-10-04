@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="es">
+	
+<info>
+   <title>
+Informe Acceso Remoto
+   </title>
+   <author>
+		<personname>
+			<firstname>Adrián y Jacobo</firstname>
+		</personname>
+   </author>
+   
+	<legalnotice>
+          <para>Este documento recoge el informe de la pŕactica Acceso Remoto.</para>
+    </legalnotice>
+	<pubdate><?dbtimestamp?></pubdate>
+</info>
+
+
+<xi:include href="AccesoRemoto.xml" />
+
+</book>
+

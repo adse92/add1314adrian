@@ -1,0 +1,69 @@
+<chapter>
+<section>
+		<section>
+			<title>VNC</title>
+					<section>
+							<para>Lo primero que hicimos fue instalar el VNC para poder acceder a la máquina remota.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-09-27 08:29:12.png" format="PNG"/>
+								</imageobject>
+							<para>Configuramos el servidor VNC.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-09-27 08:33:08.png" format="PNG"/>
+								</imageobject>
+							<para>Finaliza la instalación.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-09-27 08:33:21.png" format="PNG"/>
+								</imageobject>
+							<para>Abrimos el VNC en el servidor.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-09-27 08:33:38.png" format="PNG"/>
+								</imageobject>
+							<para>Instalamos el VNC en el cliente.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-09-27 08:46:00.png" format="PNG"/>
+								</imageobject>
+							<para>Conectamos el cliente con el servidor.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-09-27 08:48:13.png" format="PNG"/>
+								</imageobject>
+							<para>Los dos Windows conectados con VNC.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="25" fileref="fotos/Captura de pantalla de 2013-09-27 08:50:36.png" format="PNG"/>
+								</imageobject>
+							<para>Windows y Debian conectados con VNC.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="25" fileref="fotos/Captura de pantalla de 2013-09-27 12:13:26.png" format="PNG"/>
+								</imageobject>
+							<para>Los dos Debian conectados con VNC.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="25" fileref="fotos/Captura de pantalla de 2013-09-27 13:16:12.png" format="PNG"/>
+								</imageobject>
+							<para>Debian y Windows conectados con VNC.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="25" fileref="fotos/Captura de pantalla de 2013-09-27 13:18:39.png" format="PNG"/>
+								</imageobject>
+					</section>
+		</section>
+		<section>
+			<title>Escritorio Remoto</title>
+					<section>
+							<para>Configurando el escritorio remoto de Linux.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-10-01 09:14:37.png" format="PNG"/>
+								</imageobject>
+					</section>
+		</section>
+</section>
+</chapter>
