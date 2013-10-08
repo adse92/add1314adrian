@@ -63,6 +63,77 @@
 								<imageobject>
 									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-10-01 09:14:37.png" format="PNG"/>
 								</imageobject>
+							<para>Debian y Debian conectados con Escritorio Remoto.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="25" fileref="fotos/Captura de pantalla de 2013-10-01 09:44:46.png" format="PNG"/>
+								</imageobject>
+							<para>Comando para arancar el vino server.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="40" fileref="fotos/Captura de pantalla de 2013-10-01 09:46:09.png" format="PNG"/>
+								</imageobject>
+							<para>Configurando escritorio remoto en Windows.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="75" fileref="fotos/Captura de pantalla de 2013-10-01 10:00:30.png" format="PNG"/>
+								</imageobject>
+							<para>Windows y Windows conectados con Escritorio Remoto.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="40" fileref="fotos/Captura de pantalla de 2013-10-01 10:02:28.png" format="PNG"/>
+								</imageobject>
+							<para>Debian y Windows conectados con Escritorio Remoto.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="40" fileref="fotos/Captura de pantalla de 2013-10-01 10:11:29.png" format="PNG"/>
+								</imageobject>
+					</section>
+		</section>
+		<section>
+			<title>Terminal Server</title>
+					<section>
+							<para>Asistencia de instalación.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="50" fileref="fotos/Captura de pantalla de 2013-10-02 10:18:29.png" format="PNG"/>
+								</imageobject>
+							<para>Demostración de que está funcionando de manera correcta el Terminal Server.</para>
+							<para></para>
+								<imageobject>
+									<imagedata scale="50" fileref="fotos/Captura de pantalla de 2013-10-02 10:38:48.png" format="PNG"/>
+								</imageobject>
+							<para>Probando una aplicación con el Terminal Server en Windows.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="30" fileref="fotos/Captura de pantalla de 2013-10-02 10:41:31.png" format="PNG"/>
+								</imageobject>
+							<para>Probando una aplicación con el Terminal Server en Debian.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="30" fileref="fotos/Captura de pantalla de 2013-10-02 11:18:38.png" format="PNG"/>
+								</imageobject>
+					</section>
+		</section>
+		<section>
+			<title>RemoteApp</title>
+					<section>
+						
+							<para>Instalación RemoteApp.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="50" fileref="fotos/Captura de pantalla de 2013-10-04 08:25:58.png" format="PNG"/>
+								</imageobject>
+							<para>Programas añadidos para RemoteApp.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="50" fileref="fotos/Captura de pantalla de 2013-10-04 08:22:40.png" format="PNG"/>
+								</imageobject>
+							<para>Iniciando el RemoteApp.</para>
+							<para></para>			
+								<imageobject>
+									<imagedata scale="50" fileref="fotos/Captura de pantalla de 2013-10-04 08:27:26.png" format="PNG"/>
+								</imageobject>
 					</section>
 		</section>
 </section>

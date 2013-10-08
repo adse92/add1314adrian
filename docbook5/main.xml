@@ -3,22 +3,17 @@
 	
 <info>
    <title>
-Informe Acceso Remoto
+ADD1314
    </title>
    <author>
 		<personname>
 			<firstname>Adrián y Jacobo</firstname>
 		</personname>
    </author>
-   
 	<legalnotice>
-          <para>Este documento recoge el informe de la pŕactica Acceso Remoto.</para>
+          <para>Este docbook recoge los trabajos de la asignatura ADD1314.</para>
     </legalnotice>
 	<pubdate><?dbtimestamp?></pubdate>
 </info>
-
-
 <xi:include href="AccesoRemoto.xml" />
-
 </book>
-
