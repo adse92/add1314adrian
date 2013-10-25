@@ -15,5 +15,6 @@ ADD1314
     </legalnotice>
 	<pubdate><?dbtimestamp?></pubdate>
 </info>
-<xi:include href="AccesoRemoto.xml" />
+<xi:include href="Actividad1.xml" />
+<xi:include href="Actividad2.xml" />
 </book>
