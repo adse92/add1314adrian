@@ -1,0 +1,28 @@
+<chapter>
+	<title>Clientes Ligeros</title>
+		<section>
+			<title>Servidor LTSP</title>
+				<para>Empezaremos por actualizar los repositorios con ayuda de este comando: "apt-get update".</para>
+				<para>Procederemos a instalar el servidor ltsp: "apt-get install ltsp-server-standalone".</para>
+				<para>Usaremos el siguiente comando para dejar lista la imagen: "ltsp-build-client --arch i386".</para>
+		</section>
+		<section>
+			<title>Máquina Virtual Cliente</title>
+				<para>Crearemos una máquina virtual con la configuración siguiente:</para>
+				<itemizedlist>
+				<listitem>
+					<para>Memoria Ram: 512MB.</para>
+				</listitem>
+				<listitem>
+					<para>Tarjeta de Red: Red Interna.</para>
+				</listitem>
+				<listitem>
+					<para>En el orden de arranque, deshabilitar todo menos 'Red'.</para>
+				</listitem>
+				</itemizedlist>
+		</section>
+		<section>
+			<title>YouTube</title>
+				<ulink url="http://www.youtube.com/watch?v=d867MNJn1x8">Link:</ulink>
+		</section>
+</chapter>

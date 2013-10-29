@@ -1,0 +1,130 @@
+<chapter>
+	<title>Acceso Remoto</title>
+		<section>
+			<title>VNC</title>
+				<para>Lo primero que hicimos fue instalar el VNC para poder acceder a la máquina remota.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/VNC/1.png" format="PNG"/>
+				</imageobject>
+				<para>Configuramos el servidor VNC.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/VNC/2.png" format="PNG"/>
+				</imageobject>
+				<para>Finaliza la instalación.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/VNC/3.png" format="PNG"/>
+				</imageobject>
+				<para>Abrimos el VNC en el servidor.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/VNC/4.png" format="PNG"/>
+				</imageobject>
+				<para>Instalamos el VNC en el cliente.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/VNC/5.png" format="PNG"/>
+				</imageobject>
+				<para>Conectamos el cliente con el servidor.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/VNC/6.png" format="PNG"/>
+				</imageobject>
+				<para>Los dos Windows conectados con VNC.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="25" fileref="Capturas/t1a1accesoremoto/VNC/7.png" format="PNG"/>
+				</imageobject>
+				<para>Windows y Debian conectados con VNC.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="25" fileref="Capturas/t1a1accesoremoto/VNC/8.png" format="PNG"/>
+				</imageobject>
+				<para>Los dos Debian conectados con VNC.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="25" fileref="Capturas/t1a1accesoremoto/VNC/9.png" format="PNG"/>
+				</imageobject>
+				<para>Debian y Windows conectados con VNC.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="25" fileref="Capturas/t1a1accesoremoto/VNC/10.png" format="PNG"/>
+				</imageobject>
+		</section>
+		<section>
+			<title>Escritorio Remoto</title>
+				<para>Configurando el escritorio remoto de Linux.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/Escritorio Remoto/1.png" format="PNG"/>
+				</imageobject>
+				<para>Debian y Debian conectados con Escritorio Remoto.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="25" fileref="Capturas/t1a1accesoremoto/Escritorio Remoto/2.png" format="PNG"/>
+				</imageobject>
+				<para>Comando para arancar el vino server.</para>
+				<para></para>			
+				<imageobject>
+					<imagedata scale="40" fileref="Capturas/t1a1accesoremoto/Escritorio Remoto/3.png" format="PNG"/>
+				</imageobject>
+				<para>Configurando escritorio remoto en Windows.</para>
+				<para></para>			
+				<imageobject>
+					<imagedata scale="75" fileref="Capturas/t1a1accesoremoto/Escritorio Remoto/4.png" format="PNG"/>
+				</imageobject>
+				<para>Windows y Windows conectados con Escritorio Remoto.</para>
+				<para></para>			
+				<imageobject>
+				<imagedata scale="40" fileref="Capturas/t1a1accesoremoto/Escritorio Remoto/5.png" format="PNG"/>
+				</imageobject>
+				<para>Debian y Windows conectados con Escritorio Remoto.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="40" fileref="Capturas/t1a1accesoremoto/Escritorio Remoto/6.png" format="PNG"/>
+				</imageobject>
+		</section>
+		<section>
+			<title>Terminal Server</title>
+				<para>Asistencia de instalación.</para>
+				<para></para>
+				<imageobject>
+				<imagedata scale="50" fileref="Capturas/t1a1accesoremoto/Terminal Server/1.png" format="PNG"/>
+				</imageobject>
+				<para>Demostración de que está funcionando de manera correcta el Terminal Server.</para>
+				<para></para>
+				<imageobject>
+					<imagedata scale="50" fileref="Capturas/t1a1accesoremoto/Terminal Server/2.png" format="PNG"/>
+				</imageobject>
+				<para>Probando una aplicación con el Terminal Server en Windows.</para>
+				<para></para>			
+				<imageobject>
+						<imagedata scale="30" fileref="Capturas/t1a1accesoremoto/Terminal Server/3.png" format="PNG"/>
+				</imageobject>
+				<para>Probando una aplicación con el Terminal Server en Debian.</para>
+				<para></para>			
+				<imageobject>
+					<imagedata scale="30" fileref="Capturas/t1a1accesoremoto/Terminal Server/4.png" format="PNG"/>
+				</imageobject>
+		</section>
+		<section>
+			<title>RemoteApp</title>
+				<para>Instalación RemoteApp.</para>
+				<para></para>			
+				<imageobject>
+					<imagedata scale="50" fileref="Capturas/t1a1accesoremoto/RemoteApp/1.png" format="PNG"/>
+				</imageobject>
+				<para>Programas añadidos para RemoteApp.</para>
+				<para></para>			
+				<imageobject>
+					<imagedata scale="50" fileref="Capturas/t1a1accesoremoto/RemoteApp/2.png" format="PNG"/>
+				</imageobject>
+				<para>Iniciando el RemoteApp.</para>
+				<para></para>			
+				<imageobject>
+					<imagedata scale="50" fileref="Capturas/t1a1accesoremoto/RemoteApp/3.png" format="PNG"/>
+				</imageobject>
+		</section>
+</chapter>
