@@ -214,7 +214,7 @@
 				</section>
 				<section>
 					<title>Restricciones de uso</title>
-						<para>La restrcción de tipo 1 no hay que hacer nada.</para>
+						<para>La restricción de tipo 1 no hay que hacer nada.</para>
 						<para></para>
 						<para>Para aplicar al restricción tipo 2, tenemos que dirigirnos al archivo /etc/sshd_config al final añadimos la línea DenyUsers remoteuser2 y queda aplicar la restriccón para que dicho usuario no pueda conectarse por ssh:</para>
 						<para></para>
@@ -230,14 +230,9 @@
 						<para>Lo ejecutamos pero nos dará error, ya que tenemos que usar una de las variables que se nos indica (--lock):</para>
 						<para></para>
 						<imageobject>
-						<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/ejecutarscript.png" format="PNG"/>
+						<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/ejecutarscript2.png" format="PNG"/>
 						</imageobject>
 						<para>Los escribiremos de manera correcta "./limit.ssh.users.rb --lock":</para>
-						<para></para>
-						<imageobject>
-							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/ejecutarscript.png" format="PNG"/>
-						</imageobject>
-						<para>Y lo ejecutaremos:</para>
 						<para></para>
 						<imageobject>
 							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/script3.png" format="PNG"/>
