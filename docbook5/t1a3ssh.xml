@@ -196,12 +196,12 @@
 						<imageobject>
 							<imagedata scale="40" fileref="Capturas/t1a3ssh/jacobo/serv/wine.png" format="PNG"/>
 						</imageobject>
-						<para>Para poder ejecutar aplicaciones de windows nativas desde un cliente windows tenemos que instslar el programa xming:</para>
+						<para>Para poder ejecutar aplicaciones de windows nativas desde un cliente windows tenemos que instalar el programa Xming:</para>
 						<para></para>
 						<imageobject>
 							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/clie2/programacorreraplicacionenwindows.png" format="PNG"/>
 						</imageobject>
-						<para>Una vez instalado el programa anterior configuramos el putty como se ve en la siguient imagen:</para>
+						<para>Una vez instalado el programa anterior configuramos el putty como se ve en la siguiente imagen:</para>
 						<para></para>
 						<imageobject>
 							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/clie2/configurarputtiparaaplicaciones.png" format="PNG"/>
@@ -222,7 +222,7 @@
 							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/clie1/restriccion total 2.png" format="PNG"/>
 						</imageobject>
 						
-						<para>Para aplicar al restricción tipo 3, tenemos que modificar el sguiente script:</para>
+						<para>Para aplicar al restricción tipo 3, tenemos que modificar el siguiente script:</para>
 						<para></para>
 						<imageobject>
 							<imagedata scale="40" fileref="Capturas/t1a3ssh/jacobo/script/script.png" format="PNG"/>
@@ -236,6 +236,45 @@
 						<para></para>
 						<imageobject>
 							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/script3.png" format="PNG"/>
+						</imageobject>
+						<para>Para aplicar la restricción 4:</para>
+						<itemizedlist>
+							<listitem>
+								<para>Usaremos el usuario remoteuser4.</para>
+							</listitem>
+							<listitem>
+								<para>Crear grupo remoteapps.</para>
+							</listitem>
+							<listitem>
+								<para>Incluir al usuario en el grupo.</para>
+							</listitem>
+							<listitem>
+								<para>Localizar el programa APP1. Posiblemente tenga permisos 755.</para>
+							</listitem>
+								<listitem>
+								<para>Poner al programa APP1 el grupo propietario a remoteapps.</para>
+							</listitem>
+							<listitem>
+								<para>Poner los permisos del ejecutable de APP1 a 750. Para impedir que los que no pertenezcan al grupo puedan ejecutar el programa.</para>
+							</listitem>
+							<listitem>
+								<para>Comprobamos el funcionamiento en el servidor.</para>
+							</listitem>
+							<listitem>
+								<para>Comprobamos el funcionamiento desde el cliente.</para>
+							</listitem>
+							</itemizedlist>
+						<para></para>
+						<imageobject>
+							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/Captura de pantalla de 2013-11-19 10:43:09.png" format="PNG"/>
+						</imageobject>
+						<para></para>
+						<imageobject>
+							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/Captura de pantalla de 2013-11-19 11:17:17.png" format="PNG"/>
+						</imageobject>
+						<para></para>
+						<imageobject>
+							<imagedata scale="75" fileref="Capturas/t1a3ssh/jacobo/script/Captura de pantalla de 2013-11-19 11:20:45.png" format="PNG"/>
 						</imageobject>
 				</section>
 		</section>
