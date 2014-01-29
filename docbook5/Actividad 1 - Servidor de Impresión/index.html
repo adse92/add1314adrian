@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>T&iacute;tulo del trabajo</title>
+</head>
+<body>
+<div style='display:table-row; padding: 10px;'>
+  <div style='float: left; width=20%; padding:10px;'>
+  <img src='./files/logo.png'/>
+  </div>
+  <div style='float: left;padding:10px'>
+  <ul>
+    <li><b>M&oacute;dulo:</b> <i>Sistemas Operativos</i></li>
+    <li><b>T&iacute;tulo del trabajo</b> <i>Servidor de Impresi&oacute;n</i></li>
+    <li><b>Componentes del grupo:</b> <i>Adri&aacute;n del Saz Est&eacute;vez</i></li>
+    <li><b>Curso Acad&eacute;mico:</b> <i>2013/2014</i></li>
+    <li><b>Fecha de entrega:</b> <i>24 de Enero de 2014</i></li>
+  </ul>
+  </div>
+</div>
+<div style='float: clear;background-color: #eeeeee; border:2px solid; border-radius:10px; padding: 10px;'>
+<a href='#bloque1'>Servidor</a> | <a href='#bloque2'>Cliente</a> | <a href='#final'>Conclusiones</a>
+</div>
+<h1><a id='bloque1'>Servidor</a></h1>
+
+<p>Comenzamos instalando el PDFCreator para emular una impresora y permitir que nos imprima PDF's:</p>
+<img src='./files/Capturas/1.png'/>
+
+<p>Agregamos el programa como si se tratara de una impresora m&aacute;s en el panel de control:</p>
+<img src='./files/Capturas/2.png'/>
+
+<p>Probamos a imprimir un archivo de texto para que nos lo convierta en PDF:</p>
+<img src='./files/Capturas/3.png'/>
+
+<p>El resultado ser&aacute; el siguiente:</p>
+<img src='./files/Capturas/4.png'/>
+
+<p>Una vez tengamos lo principal, nos dispondremos a crear un dominio para conectarnos posteriormente con un cliente:</p>
+<img src='./files/Capturas/5.png'/>
+
+<p>Al dominio lo llamaremos pc16.com:</p>
+<img src='./files/Capturas/6.png'/>
+
+<p>Seguiremos aceptando las condiciones, en este caso colocando nuestro sistema operativo (Windows Server 2008 R2):</p>
+<img src='./files/Capturas/7.png'/>
+
+<p>Aqu&iacute; podremos ver como se ha creado correctamente:</p>
+<img src='./files/Capturas/8.png'/>
+
+<p>Una vez hecho, en un navegador colocaremos la siguiente direcci&oacute;n "pcadri.pc16.com/printers" (nombreservidor.nombredominio/printers) para acceder a la cola de impresi&oacute;n que m&aacute;s adelante cuando mandemos a imprimir algo en el cliente nos aparecer&aacute; en esta p&aacute;gina:</p>
+<img src='./files/Capturas/9.png'/>
+
+<h1><a id='bloque2'>Cliente</a></h1>
+
+<p>Una vez configurado el cliente, lo conectaremos al dominio:</p>
+<img src='./files/Capturas/10.png'/>
+
+<p>Agregaremos la impresora del servidor (PDFCreator) a la lista de impresoras del cliente para que mandemos a imprimir un documento:</p>
+<img src='./files/Capturas/11.png'/>
+
+<p>Nos detectar&aacute; la impresora y la seleccionaremos:</p>
+<img src='./files/Capturas/12.png'/>
+
+<p>Daremos click en imprimir:</p>
+<img src='./files/Capturas/13.png'/>
+
+<p>Y finalmente, nos pasaremos al servidor como se muestra en la parte superior de la imagen (W2008 SERVER) y veremos en cola el documento "impreso" del cliente:</p>
+<img src='./files/Capturas/14.png'/>
+
+<h1><a id='final'>Conclusiones</a></h1>
+<p>Tuve problemas a la hora que el cliente me detectara la impresora creada en el servidor. Servidor y cliente se conectaron correctamente al dominio, se podian mandar pings pero, a&uacute;n as&iacute;, no habia manera de que detectara la impresora (PDFCreator).</p>
+<img src='./files/Capturas/15.png'/>
+
+<p>Lo solucion&eacute; al d&iacute;a siguiente cuando, al entrar de nuevo a la pr&aacute;ctica para continuarla, me di cuenta que no estaba con el usuario que met&iacute; en el dominio.</p>
+<p>De resto no encontr&eacute; m&aacute;s errores.</p>
+</body>
+</html>
